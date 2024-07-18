@@ -1,7 +1,7 @@
 # First CRUD - Django - Python - MySQL
 - Django
 - Python
-- MySQL
+- MySQL - (XAMPP)
 # RUN
 - Bước 1: `pip install Django`
 - Bước 2: `pip install mysqlclient`
