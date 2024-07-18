@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://batisteo.gallerycdn.vsassets.io/extensions/batisteo/vscode-django/1.15.0/1703694028504/Microsoft.VisualStudio.Services.Icons.Default" type="image/x-icon">
+    <title>Tiến - First CRUD Django</title>
+</head>
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<body>
+    <div class="container2">
+        <h1>Cập Nhật Thành Viên</h1>
+        
+        <button class="button_add">
+            <a href="/">
+            Trang Chủ
+        </a>
+        </button>
+
+        <form class="form_add" action="{% url 'uprec' mem.id %}" method="post">
+            {% csrf_token %}
+            <label for="">Họ</label><br>
+            <input type="text" name="first" placeholder="Nguyễn" value="{{mem.firstname}}"><br>
+            <label for="">Tên</label><br>
+            <input type="text" name="last" placeholder="Hoàng An" value="{{mem.lastname}}"><br>
+            <label for="">Tỉnh/Thành Phố</label><br>
+            <input type="text" name="country" placeholder="TP.HCM" value="{{mem.country}}"><br>
+            <button type="submit" id="new1">Cập Nhật</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

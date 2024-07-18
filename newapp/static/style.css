@@ -1,0 +1,161 @@
+.container {
+    margin: 80px 240px 60px 240px;
+    padding: 0px 100px 100px 100px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid rgb(17, 4, 4);
+    padding: 6px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#customers #mid {
+    text-align: center;
+}
+
+#customers #up {
+    background-color: blue;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+#customers #del {
+    background-color: red;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+#customers button {
+    width: 100%;
+}
+
+.container1 #new {
+    background-color: blue;
+    border-color: red;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+.container2 #new1 {
+    background-color: blue;
+    border-color: red;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
+
+h1 {
+    color: #00975b;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.container1 input {
+    padding: 8px;
+}
+
+.container2 input {
+    padding: 8px;
+}
+
+.container1 {
+    margin: 80px 240px 60px 240px;
+    padding: 0px 100px 100px 100px;
+}
+
+.container2 {
+    margin: 80px 240px 60px 240px;
+    padding: 0px 100px 100px 100px;
+}
+
+.container #new3 {
+    padding: 8px;
+    background-color: rgb(27, 24, 199);
+    color: white;
+    border-radius: 4px;
+    border-color: #04AA6D;
+}
+
+.form_add{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.button_add{
+    position: absolute;
+    top:0;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 3px dashed black;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo_django{
+    position: fixed;
+    border: 2px dashed black;
+    border-radius: 1000px;
+    width: 250px;
+    right: 0;
+    margin-right: 30px;
+    top: 0;
+    margin-top: 250px;
+}
+
+#hvt{
+    left:0 !important;
+    border: none;
+    margin-left: 30px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.footer span{
+    color: red;
+    margin-left: 5px;
+}
